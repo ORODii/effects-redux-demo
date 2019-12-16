@@ -16,4 +16,10 @@ export class UsuarioService {
       .get(`${environment.api}/users?per_page=6`)
       .pipe(map((resp: any) => resp.data));
   }
+
+  getUserById(id: number) {
+    return this.http
+      .get(`${environment.api}/users/${id}`)
+      .pipe(map((resp: any) => resp.data));
+  }
 }

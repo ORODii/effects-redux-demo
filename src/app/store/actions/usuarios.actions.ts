@@ -3,7 +3,7 @@ import { Usuario } from '../../models/usuario.model';
 
 export const CARGAR_USUARIOS = '[USUARIOS] Cargar Usuarios';
 export const CARGAR_USUARIOS_SUCCESS = '[USUARIOS] Cargar Usuarios SUCCESS';
-export const CARGAR_USUARIOS_FAIL = '[USUARIOS] Cargar Usuarios';
+export const CARGAR_USUARIOS_FAIL = '[USUARIOS] Cargar Usuarios FAIL';
 
 export const cargarUsuarios = createAction(CARGAR_USUARIOS);
 
